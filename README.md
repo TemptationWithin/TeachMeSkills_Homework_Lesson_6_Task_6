@@ -1,21 +1,21 @@
 # TeachMeSkills_Homework_Lesson_6_Task_6
 /**
- * ЗАДАНИЕ 6
- * 	Создайте класс, который описывает вектор (в трёхмерном пространстве).
- * 	У него должны быть:
- * 		- конструктор с параметрами в виде списка координат x, y, z
- * 		- конструктор без параметров, по умолчанию все координаты проставляются в 0
- * 		- метод, вычисляющий длину вектора. Длина вектора высчитывается по формуле: корень квадраный из x^2+y^2+z^2.
- * 		Корень можно посчитать с помощью Math.sqrt():
- * 		- метод, вычисляющий скалярное произведение двух векторов. Формула для этого: x1*x2 + y1*y2 + z1*z2
- * 		- метод, вычисляющий векторное произведение с другим вектором. Формула для этого: (y1*z2 - z1*y2, z1*x2 - x1*z2, x1*y2 - y1*x2)
- * 		- методы для суммы и разности двух векторов. Формулы для этого: (x1 + x2, y1 + y2, z1 + z2) и (x1 - x2, y1 - y2, z1 - z2)
- * 		- статический метод, который принимает целое число N, и возвращает массив случайных векторов размером N.
- * 		- пеопределенный метод toString()
- *
- * 	Что практикуем в этом задании:
- * 		- констуркторы с параметрами и без параметров в одном классе
- * 		- написание методов, которые возвращают объект написанного нами класса(класса Vector)
- * 		- переопределение метода toString
- * 		- статические методы
- */
+* TASK 6
+* Create a class that describes a vector (in three-dimensional space).
+* It must have:
+* - a constructor with parameters in the form of a list of coordinates x, y, z
+* - a constructor without parameters, by default all coordinates are set to 0
+* - a method that calculates the length of a vector. The length of a vector is calculated using the formula: square root of x^2+y^2+z^2.
+* The root can be calculated using Math.sqrt():
+* - a method that calculates the scalar product of two vectors. The formula for this is: x1*x2 + y1*y2 + z1*z2
+* - a method that calculates the vector product with another vector. The formula for this is: (y1*z2 - z1*y2, z1*x2 - x1*z2, x1*y2 - y1*x2)
+* - methods for the sum and difference of two vectors. The formulas for this are: (x1 + x2, y1 + y2, z1 + z2) and (x1 - x2, y1 - y2, z1 - z2)
+* - a static method that takes an integer N and returns an array of random vectors of size N.
+* - an overridden toString() method
+*
+* What we practice in this task:
+* - constructors with and without parameters in one class
+* - writing methods that return an object of the class we wrote (Vector class)
+* - overriding the toString method
+* - static methods
+*/
